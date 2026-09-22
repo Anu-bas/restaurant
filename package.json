@@ -1,0 +1,12 @@
+{
+  "name": "restaurant-ordering-reservation-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MERN restaurant ordering (cart only, no payments) and table reservation system",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev"
+  }
+}
